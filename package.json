@@ -1,0 +1,32 @@
+{
+  "name": "pokefetchjs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pokefetchjs": "index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "tool",
+    "pokemon",
+    "pokeapi",
+    "ascii",
+    "image-processing",
+    "ascii-art",
+    "simple",
+    "cli",
+    "fancy"
+  ],
+  "author": "Raj Kashyap",
+  "license": "ISC",
+  "dependencies": {
+    "asciify-image": "^0.1.10",
+    "axios": "^1.7.2",
+    "boxen": "^7.1.1",
+    "ora": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
